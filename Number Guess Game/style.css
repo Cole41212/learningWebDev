@@ -1,0 +1,32 @@
+body{
+    background-color: hsl(272, 14%, 36%);
+}
+#guessGame{
+    text-align: center;
+    font-size: 2em;
+
+}
+
+#submitBtn{
+    font-size: 1em;
+    background-color: rgb(82, 82, 243);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+#userGuess{
+    font-size: 1em;
+    border-width: 5px;
+    border-color: rgb(82, 82, 243);
+}
+.win {
+    color: rgb(129, 216, 129);
+}
+.lose {
+    color: rgb(222, 65, 65);
+}
+
+#submitBtn:hover {
+    background-color: rgb(107, 107, 240);
+}
